@@ -63,13 +63,13 @@ _# force field file
 **References**
 
 1. Harris, C.R., Millman, K.J., van der Walt, S.J. et al. "Array programming with NumPy". Nature 585 (2020) 357.
-2. 2. A. P. Thompson, H. M. Aktulga, R. Berger, D. S. Bolintineanu, W. M. Brown, P. S. Crozier, P. J. in 't Veld, A. Kohlmeyer, S. G. Moore, T. D. Nguyen, R. Shan, M. J. Stevens, J. Tranchida, C. Trott, S. J. Plimpton "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales" Comp Phys Comm 271 (2022) 10817
+2. A. P. Thompson, H. M. Aktulga, R. Berger, D. S. Bolintineanu, W. M. Brown, P. S. Crozier, P. J. in 't Veld, A. Kohlmeyer, S. G. Moore, T. D. Nguyen, R. Shan, M. J. Stevens, J. Tranchida, C. Trott, S. J. Plimpton "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales" Comp Phys Comm 271 (2022) 10817
 3. P J Mitchell and D Fincham "Shell model simulations by adiabatic dynamics" J. Phys.: Condens. Matter 5 (1993) 1031
 
 Table 1: Description of the ParticleSystem class in the particle\_system.py file
 
-| Attributes of the ParticleSystem class |
-| --- |
+| Attributes of the ParticleSystem class | Short description |
+| --- | --- |
 | lmp\_pointer | Instance of the LAMMPS Python class |
 | Ntypes | Number of atom types |
 | Nbondtypes | Number of bond types |
