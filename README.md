@@ -57,8 +57,10 @@ _python core\_shell.py data.rigid\_ion data.new\_coreshell 1 2 -f core\_shell.ff
 The content of the _core\_shell.ff_ force field file is as follows:
 
 _# force field file
- 1 0.9 -0.5005
- 2 0.9 -2.5056_
+
+1 0.9 -0.5005
+
+2 0.9 -2.5056_
 
 **References**
 
