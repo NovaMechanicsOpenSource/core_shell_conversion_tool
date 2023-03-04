@@ -94,6 +94,7 @@ Table 1: Description of the ParticleSystem class in the particle\_system.py file
 
 Table 2: Functions in the core\_shell.py file
 
+| FUnction Name | Description |
 | --- | --- |
 | core\_shell | Main function for adding/removing shell particles from a lammps data/restart file |
 | create\_cli | Create an elementary CLI based on the argparse module & perform initial consistency checks |
