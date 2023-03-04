@@ -56,11 +56,11 @@ _python core\_shell.py data.rigid\_ion data.new\_coreshell 1 2 -f core\_shell.ff
 
 The content of the _core\_shell.ff_ force field file is as follows:
 
-_# force field file
+_# force field file_
 
-1 0.9 -0.5005
+_1 0.9 -0.5005_
 
-2 0.9 -2.5056_
+_2 0.9 -2.5056_
 
 **References**
 
@@ -94,7 +94,7 @@ Table 1: Description of the ParticleSystem class in the particle\_system.py file
 
 Table 2: Functions in the core\_shell.py file
 
+
 | core\_shell | Main function for adding/removing shell particles from a lammps data/restart file |
-| --- | --- |
 | create\_cli | Create an elementary CLI based on the argparse module & perform initial consistency checks |
 | polarize | Create the shell particles |
